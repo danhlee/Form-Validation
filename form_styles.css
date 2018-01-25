@@ -1,0 +1,26 @@
+input {
+    display: inline-block;
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4CAF50;-1
+    color: white;
+    padding: 14px 20px;
+    margin-top: 2%;
+    margin-left: 35%;
+    border: none;
+    cursor: pointer;
+    width: 15%; 
+    position: absolute;
+}
+
+label {
+	display: inline-block;
+    width: 10%;
+	text-align: left; 
+}

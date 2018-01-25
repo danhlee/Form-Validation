@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Sign-Up Form</title>
+	<link rel="stylesheet" href="form_styles.css">
+</head>
+<body>
+	<form action="results.html">
+
+		<h2>Simple Tax Info Form</h2>
+		<h3>Please complete the fields below.</h3>
+			
+		<div>
+			<label><b>First Name:</b></label>
+			<input type="text" placeholder="Enter first name" name="first" 
+				pattern="[A-Z a-z]{2,}" required>
+		</div>
+
+		<div>
+			<label><b>Last Name:</b></label>
+			<input type="text" placeholder="Enter last name" name="last" 
+				pattern="[A-Z a-z]{2,}"  required>
+		</div>
+		
+		<div> 
+			<label><b>Salary:</b></label>
+			<input type="number" placeholder="Enter salary" name="salary" 
+				min="1" max="999,999" required>
+		</div>
+		
+		<div> 
+			<label><b>Social Security Number:</b></label>
+			<input type="text" placeholder="xxx-xx-xxxx" name="ssn" 
+				pattern="\d{3}\-?\d{2}\-?\d{4}" title="###-##-####" required>
+		</div>
+		
+		<div>
+			<label><b>Employer ID:</b></label>
+			<input type="text" placeholder="Enter ID number" name="empId" 
+				pattern="\d{6,}" required>
+		</div>
+	
+		<div>
+			<label><b>Date of Birth:</b></label>
+			<input type="text" placeholder="mm/dd/yyyy" name="dob" 
+				pattern="([1-9]|1[0-2])\/?([1-9]|1[0-9]|2[0-9]|3[0-1])\/?(19|20)\d{2}" required>
+		</div>
+		
+		<div>
+			<button type="submit">Submit</button>
+		</div>
+
+	</form>
+</body>
+</html>
+
